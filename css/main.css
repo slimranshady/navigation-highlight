@@ -29,7 +29,7 @@ header {
 footer {
   background-color: #ffe500;
   text-align: center;
-  padding: .25em;
+  padding: .5em;
 }
 
 ul {
@@ -50,7 +50,7 @@ nav a {
 }
 
 nav li {
-    display: inline-block;
+  display: inline-block;
 }
 
 nav a:hover {
@@ -64,4 +64,19 @@ img {
 figcaption {
   padding-top: 1rem;
   padding-bottom: 1rem;
+  color: #2f2d13;
+  font-family: Georgia, serif;
+}
+
+p {
+  line-height: 1.5;
+  color: #2f2d13;
+}
+
+.current {
+  background-color: #b20953;
+}
+
+body {
+  margin: 0;
 }
